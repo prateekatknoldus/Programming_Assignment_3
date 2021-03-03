@@ -1,7 +1,7 @@
 package com.knoldus
 
 // Implementation of Stack using List
-class Stack{
+class StackUsingList{
   var list: List[Any] = List.empty
   var top: Int = -1 // top is a variable containing the position of top most or peek element of the stack
 
@@ -39,10 +39,10 @@ class Stack{
 
 }
 
-object StackTest
+object StackUsingListTest
 {
   def main(args: Array[String]): Unit = {
-    val stack = new Stack()
+    val stack = new StackUsingList()
 
     // pushing elements into the stack
     stack.push(10)

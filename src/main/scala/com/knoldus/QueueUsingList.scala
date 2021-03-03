@@ -1,7 +1,7 @@
 package com.knoldus
 
 // Implementation of Queue using List
-class Queue {
+class QueueUsingList {
   var list: List[Any] = List()
   var front: Int = -1 // front is a variable which contains the position of the element to be deleted
   var rear: Int = -1  // rear is a variable which contains the position of the newly inserted element
@@ -43,9 +43,9 @@ class Queue {
 
 }
 
-object QueueTest{
+object QueueUsingListTest{
   def main(args: Array[String]): Unit = {
-    val queue = new Queue()
+    val queue = new QueueUsingList()
 
     // inserting elements inside the queue
     queue.enqueue(10)
